@@ -1,0 +1,32 @@
+/*
+    Breadcrumb Style CSS
+*/
+
+
+.breadcrumb {
+  &__area {
+    text-align: center;
+    background-color: var(--primary);
+    padding: 160px 0 80px;
+
+    @media #{$sm} {
+      padding: 80px 0 60px;
+    }
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--white);
+
+    @media #{$sm} {
+      font-size: 36px;
+    }
+
+    @media #{$md} {
+      font-size: 48px;
+    }
+  }
+}
