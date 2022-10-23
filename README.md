@@ -1,70 +1,92 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+=== BlogHovar ===
 
-BlogHover
-===
+Contributors: devmizan
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-Hi. I'm a starter theme called BlogHovar, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Requires at least: 4.5
+Tested up to: 5.4
+Requires PHP: 5.6
+Stable tag: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
 
-* A modern workflow with a pre-made command-line interface to turn your project into a more pleasant experience.
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A custom header implementation in `inc/custom-header.php`. Just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/template-functions.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample layouts in `sass/layouts/` made using CSS Grid for a sidebar on either side of your content. Just uncomment the layout of your choice in `sass/style.scss`.
-Note: `.no-sidebar` styles are automatically loaded.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Full support for `WooCommerce plugin` integration with hooks in `inc/woocommerce.php`, styling override woocommerce.css with product gallery features (zoom, swipe, lightbox) enabled.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
+== Description ==
 
-Installation
----------------
+BlogHovar is a is lightweight, clean and minimal blog theme perfect for writers who need to create personal blog site with simple creative features and effects to make readers feel the pleasure of reading blog posts and articles. It’s also perfect for a fashion blog, lifestyle blog, travel blog, food blog, photography blog, and many more. It is designed and developed primarily to create professional blogging websites. It is fully responsive and browser compatibility. It is a simple, easy-to-use, modern and creative, user-friendly WordPress theme. The codes included in the theme are made SEO-friendly so that people can easily notice you and you get more visitors. The clean and secure HTML codes of this theme make your website function smoothly on several platforms and as these are optimized codes, your website will have a faster page load time to load quickly. Documentation at https://github.com/sinhamizan/bloghovar
 
-### Requirements
+== Installation ==
 
-`_s` requires the following dependencies:
+1. In your admin panel, go to Appearance > Themes and click the Add New button.
+2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
+3. Click Activate to use your new theme right away.
 
-- [Node.js](https://nodejs.org/)
-- [Composer](https://getcomposer.org/)
+== Frequently Asked Questions ==
 
-### Quick Start
+= Does this theme support any plugins? =
+Yes
 
-Clone or download this repository, change its name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a six-step find and replace on the name in all the templates.
+== Resources ==
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain and replace with: `'megatherium-is-awesome'`.
-2. Search for `_s_` to capture all the functions names and replace with: `megatherium_is_awesome_`.
-3. Search for `Text Domain: _s` in `style.css` and replace with: `Text Domain: megatherium-is-awesome`.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks and replace with: <code>&nbsp;Megatherium_is_Awesome</code>.
-5. Search for `_s-` to capture prefixed handles and replace with: `megatherium-is-awesome-`.
-6. Search for `_S_` (in uppercase) to capture constants and replace with: `MEGATHERIUM_IS_AWESOME_`.
+* Bootstrap v5.2.0-beta1
+  - License: MIT
+  - License URL: https://github.com/twbs/bootstrap/blob/main/LICENSE
+  - Source: https://getbootstrap.com/
+  - Copyright 2011-2022 The Bootstrap Authors.
+  - Copyright 2011-2022 Twitter, Inc.
 
-Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `_s.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
+* Font Awesome Free 6.1.1
+  - Author: @fontawesome
+  - License: (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+  - License URL: https://fontawesome.com/license/free
+  - Source: https://fontawesome.com
+  - Copyright 2022 Fonticons, Inc.
 
-### Setup
+* Swiper 8.2.2
+  - Author: Vladimir Kharlampidi
+  - License: MIT License
+  - License URL: https://github.com/nolimits4web/swiper/blob/master/LICENSE
+  - Source: https://swiperjs.com
+  - Copyright 2014-2022 Vladimir Kharlampidi.
 
-To start using all the tools that come with `_s`  you need to install the necessary Node.js and Composer dependencies :
+* MeanMenu 2.0.7
+  - Author: Chris Wharton
+  - License: MIT License
+  - Source: http://www.meanthemes.com/plugins/meanmenu/
+  - @Copyright (C) 2012-2022 Chris Wharton.
 
-```sh
-$ composer install
-$ npm install
-```
 
-### Available CLI commands
+* Poppins Fonts
+  - Author: Indian Type Foundry, Jonny Pinhorn
+  - License:  Open Font License.
+  - License URL: https://github.com/itfoundry/Poppins/blob/master/OFL.txt
+  - Source: https://github.com/itfoundry/poppins
+  - Copyright 2014-2022 Indian Type Foundry.
 
-`_s` comes packed with CLI commands tailored for WordPress theme development :
+== image ==
 
-- `composer lint:wpcs` : checks all PHP files against [PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/).
-- `composer lint:php` : checks all PHP files for syntax errors.
-- `composer make-pot` : generates a .pot file in the `languages/` directory.
-- `npm run compile:css` : compiles SASS files to css.
-- `npm run compile:rtl` : generates an RTL stylesheet.
-- `npm run watch` : watches all SASS files and recompiles them to css when they change.
-- `npm run lint:scss` : checks all SASS files against [CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/).
-- `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
-- `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
+* Image for theme screenshot, Credit Jason Blackeye
+  License: CC0 1.0 Universal (CC0 1.0)
+  License URL: https://stocksnap.io/license
+  Source: https://stocksnap.io/photo/4B83RD7BV9
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
-Good luck!
+== Copyright ==
+BlogHovar WordPress Theme, Copyright 2022 Mizanur Rahaman
+BlogHovar is distributed under the terms of the GNU GPL.
+
+== Changelog ==
+
+= 1.1.1 - October 23 2022 =
+* Fixed all third party Resources license issues
+* Fixed keyboard accessabilty issues
+* Fixed some other issues
+
+= 1.0.0 - September 30 2022 =
+* Initial release
+
+== Credits ==
+
+* Based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+* normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2018 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
+* class-tgm-plugin-activation.php https://github.com/TGMPA/TGM-Plugin-Activation [GNU General Public License v2.0]
