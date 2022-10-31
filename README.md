@@ -14,6 +14,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ![home](https://user-images.githubusercontent.com/26348416/199048054-f93b45ec-9ea5-4bb2-ad04-ac6245bf9e69.png)
 
+
+## Single Page
+
+![single](https://user-images.githubusercontent.com/26348416/199048879-b6a77b03-c3a3-4a43-a920-5ee7916d7ef1.png)
+
+
 == Description ==
 
 BlogHovar is a is lightweight, clean and minimal blog theme perfect for writers who need to create personal blog site with simple creative features and effects to make readers feel the pleasure of reading blog posts and articles. It’s also perfect for a fashion blog, lifestyle blog, travel blog, food blog, photography blog, and many more. It is designed and developed primarily to create professional blogging websites. It is fully responsive and browser compatibility. It is a simple, easy-to-use, modern and creative, user-friendly WordPress theme. The codes included in the theme are made SEO-friendly so that people can easily notice you and you get more visitors. The clean and secure HTML codes of this theme make your website function smoothly on several platforms and as these are optimized codes, your website will have a faster page load time to load quickly. Documentation at https://github.com/sinhamizan/bloghovar
